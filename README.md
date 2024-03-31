@@ -7,27 +7,27 @@ gantt
 
     section 기획
     전체 구조 설계 및 모델링 :des1, 2024-03-29, 2d
+    기획 수정 : 2024-04-08, 2d
 
     section 개발 환경
     개발 환경 세팅 :set1, 2024-03-29, 2d
 
+    section 앱 개발
+    accounts 앱 구현 :acc1, 2024-04-01, 7d
+    posts 앱 구현 :pos1, 2024-04-01, 7d
+    comments 앱 구현 :com1, 2024-04-01, 7d
+    common 앱 구현 :comn1, 2024-04-01, 7d
+
     section 랜딩 페이지
-    랜딩 페이지 구현 :lan1, 2024-04-01, 2d
-    회원가입 / 로그인 : lan2, after lan1, 2d
-    토글 메뉴 및 프로필 구현 : lan3, after lan2, 2d
+    레이아웃 :lan1, 2024-04-01, 7d
 
-    section 블로그 기능
-    블로그 기능 구현 :blog1, after set1, 3d
-    게시글 CRUD 구현 : blog2, after blog1, 2d
-    댓글 및 대댓글 CRUD : blog3, after blog2, 2d
-
-    section 추가 기능
-    검색 및 카테고리 기능 구현 :add1, after set1, 3d
-    프로필 편집 화면 구현 : add2, after add1, 2d
+    section 추가 기능 구현
+    추가 기능 : 2024-04-10, 4d
 
     section 테스트
-    기능별 테스팅 :test1, 2024-04-11, 3d
-    버그 수정 및 최적화 :test2, after test1, 2d
+    테스트 : 2024-04-05, 1d
+    테스트 : 2024-04-13, 1d
+    버그 수정 및 최적화 : 2024-04-13, 2d
 
     section 배포
     배포 준비 :deploy1, 2024-04-15, 1d
@@ -35,5 +35,4 @@ gantt
     
     section 문서화
     문서 작성 : doc1, 2024-04-16, 1d
-
 ```
