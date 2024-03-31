@@ -21,7 +21,7 @@ gantt
     section 랜딩 페이지
     레이아웃 :lan1, 2024-04-01, 7d
 
-    section 추가 기능 구현
+    section 추가 기능
     추가 기능 : 2024-04-10, 4d
 
     section 테스트
@@ -34,5 +34,8 @@ gantt
     배포 :deploy2, after deploy1, 2d
     
     section 문서화
-    문서 작성 : doc1, 2024-04-16, 1d
+    요구사항 : 2024-03-29, 1.5d
+    기술 : 2024-03-30, 2d
+    README : 2024-04-01, 2d
+    README : doc1, 2024-04-16, 1d
 ```
